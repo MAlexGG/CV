@@ -15,22 +15,28 @@
             <img class="pattern" src="img/pattern.svg" alt="pattern"> 
         </header>
 
-        <main>
-            <button class="tabUp">
+    <main>
+        <div class="presentacion" id="firstTab" style="display:block">
+            <button class="tabUp" onclick="changeTab()">
                 <h2>Presentación</h2>
             </button>
             <p class="txtPresentacion">Tengo un gran interés por el desarrollo tecnológico en general, me apasiona todas las ventajas que él puede ofrecer como el acceso a la información y al conocimiento, la creatividad que puede surgir para generar soluciones efectivas y el aporte a la innovación para cualquier tipo de desarrollo.
                 <br>El desarrollo web cada día es más creativo y me parece interesante todos los beneficios que podemos aprovechar de él, además que aporta a la sostenibilidad que es otro tema que me apasiona.
                 <br>Siempre hay cosas que mejorar, eso promueve la imaginación y me mantiene motivada para seguir aprendiendo. Es un campo en el que se puede ir avanzando gracias a una red de profesionales inmersos en una comunidad cohesionada.
             </p>
-            <button class="tabDown">
+        </div>
+
+        <div class="actitudesAptitudes" id="secondTab" style="display:none">
+            <button class="tabDown" onclick="changeTab()">
                 <h2>Actitudes y Aptitudes</h2>
             </button>
-            <p class="txtActitudes" style="display:none">Para todos los aspectos en la vida, creo fervientemente, que la motivación y pasión son necesarios, son los motores de la creatividad. 
-                Soy una persona resiliente que se adapta sin mayor problema a los cambios que se me presenten, creo que la flexibilidad es importante, así como la escucha activa, estas habilidades me permiten trabajar en equipo siempre con respeto, honestidad y empatía. 
-                Tengo capacidad analítica que me ha permitido tomar decisiones con seguridad y confianza para el beneficio del proyecto y de los colaboradores. Creo que la perseverancia y la iniciativa ayudan a los proyectos a realizarse de manera más fluida.
+            <p class="txtActitud"> Para todos los aspectos en la vida, creo fervientemente, que la motivación y pasión son necesarios, son los motores de la creatividad. 
+                <br>Soy una persona resiliente que se adapta sin mayor problema a los cambios que se me presenten, creo que la flexibilidad es importante, así como la escucha activa, estas habilidades me permiten trabajar en equipo siempre con respeto, honestidad y empatía. 
+                <br>Tengo capacidad analítica que me ha permitido tomar decisiones con seguridad y confianza para el beneficio del proyecto y de los colaboradores. Creo que la perseverancia y la iniciativa ayudan a los proyectos a realizarse de manera más fluida.
             </p>
-        </main>
+        </div>
+        
+    </main>
 
         <nav>
             <!-- 
@@ -43,6 +49,7 @@
         </nav>
 
     <script src="nav.js"></script>
+    <script src="tabs.js"></script>
         
     
     </body>
