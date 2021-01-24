@@ -43,7 +43,7 @@ let buttonOff = "";
 
 function navPrint() {
     for (let i = 0; i < navButtons.length; i++) {
-        buttonOff += `<button class="navButton">
+        buttonOff += `<button class="navButton" id="navButton">
         <img src="${navButtons[i].imgNav}" id="${navButtons[i].id}" class="icoButton" title="${navButtons[i].nameNav}">
         <div class="envelopeFront"></div>
     </button>`
