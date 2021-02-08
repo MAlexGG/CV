@@ -37,7 +37,8 @@ h1 {
     color: #F0F1E4;
     font-weight: bold;
     margin: 8%;
-    line-height: 53px;
+    line-height: 58px;
+    text-align: center;
 }
 
 header p {
@@ -56,9 +57,9 @@ header p {
     z-index: 2;
 }
 
-/*PRESENTACION PAGE*/
+/*INICIO PAGE*/
 
-main {
+.firstPage {
     width: 58%;
     height: 100vh;
     background-color: #E2E7E3;
@@ -69,25 +70,16 @@ main {
     background-color:  #F0F0F0;
     width: 100%;
     height: 10vh;
-    box-shadow: 0px -4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
     border: none;
     display: flex;
     align-items: center;
-    margin-top: 5%;
-    cursor: pointer;
+    margin-top: 10vh;
 }
 
-.tabUp:hover{
-   background-color: #E2E7E3;
-}
-
-.tabUp:hover h2{
-    font-size: 23px;
-}
-
-h2 {
+.titleUp {
     font-family: 'Darker Grotesque', sans-serif;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
     color: #343434;
     padding-left: 10%;
@@ -98,37 +90,61 @@ h2 {
     font-size: 20px;
     font-weight: 400;
     color: #343434;
-    padding: 5% 10% 10% 10%;
+    padding: 3% 10% 10% 10%;
     height: 56vh;
+}
+
+#secondTab {
+    width: 100%;
+    height:10vh;
+    position: absolute;
+    top: 0vh;
+    overflow-y: hidden; 
+    transition: height 5s, margin;
+}
+
+#secondTab:hover{
+    height: 100vh;
+    margin: 0 auto;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
 }
 
 .tabDown {
     width: 100%;
     height: 10vh;
-    box-shadow: 0px -4px 4px rgba(0, 0, 0, 0.25);
+    background-color: #E2E7E3;
     border: none;
     display: flex;
     align-items: center;
-    margin-top: 5%;
     cursor: pointer;
 }
 
 .tabDown:hover{
-    background-color: #E2E7E3;
+    background-color: #F0F0F0;
  }
- 
- .tabDown:hover h2{
-    font-size: 23px;
- }
+
+ .tabDown:hover .titleDown{
+    color: #343434;
+}
+
+.titleDown {
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #B0C5BC;
+    padding-left: 10%;
+}
 
 .txtActitud {
     width: 80%;
-    background-color: #E2E7E3;
+    height: 89vh;
+    background-color: #F0F0F0;
     font-family: 'Darker Grotesque', sans-serif;
     font-size: 20px;
     font-weight: 400;
     color: #343434;
     padding: 5% 10% 10% 10%;
+    margin: 0%;
     position: relative;
 }
 
@@ -164,7 +180,6 @@ nav {
     top: 11%;
     left: 7%;
 }
-
 
 .envelopeFrontActive {
     width: 7vw;
@@ -217,4 +232,131 @@ nav {
     transition-duration: 1.2s;
     z-index: 2;
     box-shadow: 0px 0px 14px 3px #C4E7D7;
+}
+
+.txtNavTab {
+    width: 80%;
+    background-color: #E2E7E3;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #343434;
+    padding: 5% 10% 10% 10%;
+    position: relative;
+    overflow: hidden;
+}
+
+/*ANOTHER PAGES*/
+
+.datosDiv {
+    height: 65vh;
+    margin-top: 3%;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    cursor: url("./img/cursorMouseBN.svg"), all-scroll;
+}
+
+.txtExperiencia{
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #343434;
+    padding: 3% 10% 10% 10%;
+    height: 6vh;
+}
+
+.subtitle {
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #343434;
+    padding: 0% 10% 0% 10%;
+    margin: 3% 0% 0% 0%;
+}
+ .textDatos {
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #343434;
+    padding: 0% 10% 0% 10%;
+    margin: 1% 0% 2% 2%;
+ }
+
+ a:link {
+     color: #343434;
+     text-decoration: none;
+ }
+
+ a:visited {
+     color: #343434;
+ }
+
+ a:hover {
+     color:#B0C5BC;
+ }
+ 
+ /*SCROLLBAR STYLES*/
+
+
+.datosDiv::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+   /* Estilos barra (thumb) de scroll */
+  .datosDiv::-webkit-scrollbar-thumb {
+    background: #B0C5BC;
+    border-radius: 5px;
+  }
+  
+   /* Estilos track de scroll */
+  .datosDiv::-webkit-scrollbar-track {
+    background: #F0F0F0;
+    border-radius: 5px;
+  }
+  
+/*BARRA PROGRESO*/
+
+.txtBarra{
+    width: 25%;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #343434;
+    margin: 1%;
+}
+
+.datosHerramientas {
+    margin-top: 6%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 10%;
+}
+
+
+.barraContenedora{
+    width: 60%;
+    height: 2vh;
+    background-color: #B0C5BC;
+    border-radius: 15vw;
+    position: relative;
+}
+
+.barra{
+    height: 2vh;
+    background-color: #343434;
+    border-radius: 15vw;
+    position: absolute;
+}
+  
+.datosIdiomas {
+    margin-top: 6%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 10%;
 }
