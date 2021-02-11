@@ -57,55 +57,61 @@ let toolsList = [
     {
         id: 12,
         nameTool: "Vue.js",
-        percentage: 10
+        percentage: 5
     },
     {
         id: 13,
+        nameTool: "Angular",
+        percentage: 5
+    },
+
+    {
+        id: 14,
         nameTool: "Adobe Photoshop",
         percentage: 80
     },
     {
-        id: 14,
+        id: 15,
         nameTool: "Adobe Illustrator",
         percentage: 90
     },
     {
-        id: 15,
+        id: 16,
         nameTool: "Adobe InDesign",
         percentage: 50
     },
     {
-        id: 16,
+        id: 17,
         nameTool: "Google SketchUp",
         percentage: 70
     },
     {
-        id: 17,
+        id: 18,
         nameTool: "Vray",
         percentage: 50
     },
     {
-        id: 18,
+        id: 19,
         nameTool: "Microsoft Office",
         percentage: 90
     },
     {
-        id: 19,
+        id: 20,
         nameTool: "Autocad",
         percentage: 95
     },
     {
-        id: 20,
+        id: 21,
         nameTool: "Qgis",
         percentage: 50
     },
     {
-        id: 21,
+        id: 22,
         nameTool: "Revit",
         percentage: 30
     },
     {
-        id: 1,
+        id: 23,
         nameTool: "Arcmap",
         percentage: 40
     },
