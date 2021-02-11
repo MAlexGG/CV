@@ -476,16 +476,20 @@ nav {
     }
 
     h1 {
-        font-size: 55px;
-        line-height: 55px;
+        font-size: 45px;
+        line-height: 45px;
     }
 
     .photo {
-        width: 70%;
+        width: 65%;
     }
     
     header p {
-        font-size: 55px;
+        font-size: 45px;
+    }
+
+    .pattern {
+        height: 47%;
     }
 
     nav {
