@@ -1,6 +1,8 @@
 let botones = document.querySelectorAll(".navButton");
 let pages = document.querySelectorAll(".firstPage");
+let todos = document.getElementById("navB");
 
+//boton.lastElementChild.remove("envelopeFront");
 
 botones.forEach(function(boton){
     boton.addEventListener('click', function(){
@@ -14,16 +16,10 @@ botones.forEach(function(boton){
             //if(boton.firstElementChild.src !== "activo"){
             //    boton.firstElementChild.src = "./img/herramientas_activo.svg";
             //}  BUSCAR ALGO DEL DATA SET
-
-               
-        });  
-
-        boton.classList.remove("navButton");
-        boton.classList.add("navButtonActive");
-        //boton.lastElementChild.remove("envelopeFront");
-       
+        });
         
+        boton.classList.remove('navButton');
+        boton.classList.add('navButtonActive');
 
     });
 });
-
