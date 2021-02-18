@@ -4,22 +4,22 @@ let todos = document.getElementById("navB");
 
 //boton.lastElementChild.remove("envelopeFront");
 
-botones.forEach(function(boton){
-    boton.addEventListener('click', function(){
-        pages.forEach(function(page){
-            if(page.style.display == "block"){
+botones.forEach(function(boton) {
+    boton.addEventListener('click', function() {
+        pages.forEach(function(page) {
+            if (page.style.display == "block") {
                 page.style.display = "none"
             };
-            if(boton.firstElementChild.title === page.dataset.name){
+            if (boton.firstElementChild.title === page.dataset.name) {
                 page.style.display = "block"
-            };  
+            };
             //if(boton.firstElementChild.src !== "activo"){
             //    boton.firstElementChild.src = "./img/herramientas_activo.svg";
             //}  BUSCAR ALGO DEL DATA SET
         });
-        
-        boton.classList.remove('navButton');
-        boton.classList.add('navButtonActive');
+
+        // boton.classList.remove('navButton');
+        // boton.classList.add('navButtonActive');
 
     });
 });
