@@ -1,166 +1,154 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <link rel="stylesheet" href="styles.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>CV</title>
-    </head>
 
-    <body>
-        <header>
-            <h1>María Alexandra<br>Galarza Gallardo</h1>
-            <img src="img/foto.jpg" class="photo" alt="fotoCV">
-            <p>curriculum vitae</p>
-            <img class="pattern" src="img/pattern.svg" alt="pattern"> 
-        </header>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+</head>
 
-     
-        <main class="firstPage" id="firstMain" data-name="inicio" style="display: block;">
-            <div class="presentacion" id="firstTab">
-                <div class="tabUp">
-                    <h2 class="titleUp">Presentación</h2>
-                </div>
-                <p class="txtPresentacion">Tengo un gran interés por el desarrollo tecnológico en general, me apasiona todas las ventajas que él puede ofrecer, como el acceso a la información y al conocimiento, la creatividad que puede surgir para generar soluciones efectivas y el aporte a la innovación para cualquier tipo de desarrollo.
-                    <br><br>El desarrollo web cada día es más creativo y me parece interesante todos los beneficios que podemos aprovechar de él, además que aporta a la sostenibilidad que es otro tema que me apasiona.
-                    <br><br>Siempre hay cosas que mejorar, eso promueve la imaginación y me mantiene motivada para seguir aprendiendo. Es un campo en el que se puede ir avanzando gracias a una red de profesionales inmersos en una comunidad cohesionada.
-                </p>
-            </div>
+<body>
+    <header>
+        <h1>María Alexandra<br>Galarza Gallardo</h1>
+        <img src="img/foto.jpg" class="photo" alt="fotoCV">
+        <p>curriculum vitae</p>
+        <img class="pattern" src="img/pattern.svg" alt="pattern">
+    </header>
 
-            <div class="actitudesAptitudes" id="secondTab"  onclick="secondTab()">
-                <div class="tabDown">
-                    <h2 class="titleDown">Actitudes y Aptitudes</h2>
-                </div>
-                <p class="txtActitud"> Para todos los aspectos en la vida, creo fervientemente, que la motivación y pasión son necesarios, son los motores de la creatividad. 
-                    <br><br>Soy una persona resiliente que se adapta sin mayor problema a los cambios que se me presenten, creo que la flexibilidad es importante, así como la escucha activa, estas habilidades me permiten trabajar en equipo siempre con respeto, honestidad y empatía. 
-                    <br><br>Tengo capacidad analítica que me ha permitido tomar decisiones con seguridad y confianza para el beneficio del proyecto y de los colaboradores. Creo que la perseverancia y la iniciativa ayudan a los proyectos a realizarse de manera más fluida.
-                </p>
-            </div>
-        </main>
 
-        <main class="firstPage" id="firstPage" data-name="datosPersonales" style="display: none;">
-            <div class="presentacion" id="thirdTab">
-                <div class="tabUp">
-                    <h2 class="titleUp">Datos Personales</h2>
-                </div>
+    <main class="firstPage" id="firstMain" data-name="inicio" style="display: block;">
+        <div class="presentacion" id="firstTab">
+            <div class="tabUp">
+                <h2 class="titleUp">Presentación</h2>
             </div>
-            <div class="datosDiv">
-                <div>
-                    <h6 class="subtitle">Número de documento</h6>
-                    <p class="textDatos">Y4946406V</p>
-                </div>
-                <div>
-                    <h6 class="subtitle">Nacionalidad</h6>
-                    <p class="textDatos">Ecuatoriana</p>
-                </div>
-                <div>
-                    <h6 class="subtitle">Año de Nacimiento</h6>
-                    <p class="textDatos">11 de Enero de 1984</p>
-                </div>
-                <div>
-                    <h6 class="subtitle">Dirección</h6>
-                    <p class="textDatos">c/ Aragó 575, Pl. 1<br>08026 Barcelona</p>
-                </div>
-                <div>
-                    <h6 class="subtitle">Número de móvil</h6>
-                    <p class="textDatos">+34 675 49 79 44</p>
-                </div>
-                <div>
-                    <h6 class="subtitle">Correo electrónico</h6>
-                    <p class="textDatos">alexandragalarzag@gmail.com</p>
-                </div>
-                <div>
-                    <h6 class="subtitle"><a href="https://www.linkedin.com/in/magalarza/" target="_blank">LinkedIn</href></a></h6>
-                </div>
-            </div>
-        </main>
+            <p class="txtPresentacion">Tengo un gran interés por el desarrollo tecnológico en general, me apasiona todas las ventajas que él puede ofrecer, como el acceso a la información y al conocimiento, la creatividad que puede surgir para generar soluciones efectivas y el
+                aporte a la innovación para cualquier tipo de desarrollo.
+                <br><br>El desarrollo web cada día es más creativo y me parece interesante todos los beneficios que podemos aprovechar de él, además que aporta a la sostenibilidad que es otro tema que me apasiona.
+                <br><br>Siempre hay cosas que mejorar, eso promueve la imaginación y me mantiene motivada para seguir aprendiendo. Es un campo en el que se puede ir avanzando gracias a una red de profesionales inmersos en una comunidad cohesionada.
+            </p>
+        </div>
 
-        <main class="firstPage" data-name="educación" style="display: none;">
-            <div class="presentacion" id="fourthTab">
-                <div class="tabUp">
-                    <h2 class="titleUp">Educación</h2>
-                </div>
+        <div class="actitudesAptitudes" id="secondTab" onclick="secondTab()">
+            <div class="tabDown">
+                <h2 class="titleDown">Actitudes y Aptitudes</h2>
             </div>
-            <div class="datos">
-                <p class="txtPresentacion">En el año 2009 me gradué de la facultad de Arquitectura en la Universidad Católica del Ecuador, llegué a Barcelona en el año 2016 para realizar el máster oficial en Intervención Sostenible en el medio construido en la Universidad Politécnica de Cataluña y en el año 2017 comencé a estudiar un máster propio part-time en Gestión Ambiental de la facultad de psicología social de la Universidad de Barcelona.
+            <p class="txtActitud"> Para todos los aspectos en la vida, creo fervientemente, que la motivación y pasión son necesarios, son los motores de la creatividad.
+                <br><br>Soy una persona resiliente que se adapta sin mayor problema a los cambios que se me presenten, creo que la flexibilidad es importante, así como la escucha activa, estas habilidades me permiten trabajar en equipo siempre con respeto,
+                honestidad y empatía.
+                <br><br>Tengo capacidad analítica que me ha permitido tomar decisiones con seguridad y confianza para el beneficio del proyecto y de los colaboradores. Creo que la perseverancia y la iniciativa ayudan a los proyectos a realizarse de manera
+                más fluida.
+            </p>
+        </div>
+    </main>
+
+    <main class="firstPage" id="firstPage" data-name="datosPersonales" style="display: none;">
+        <div class="presentacion" id="thirdTab">
+            <div class="tabUp">
+                <h2 class="titleUp">Datos Personales</h2>
+            </div>
+        </div>
+        <div class="datosDiv">
+            <div>
+                <h6 class="subtitle">Correo electrónico</h6>
+                <p class="textDatos">alexandragalarzag@gmail.com</p>
+            </div>
+            <div>
+                <h6 class="subtitle"><a href="https://www.linkedin.com/in/magalarza/" target="_blank">LinkedIn</href></a></h6>
+            </div>
+            <div>
+                <h6 class="subtitle"><a href="https://github.com/MAlexGG" target="_blank">Github</href></a></h6>
+            </div>
+        </div>
+    </main>
+
+    <main class="firstPage" data-name="educación" style="display: none;">
+        <div class="presentacion" id="fourthTab">
+            <div class="tabUp">
+                <h2 class="titleUp">Educación</h2>
+            </div>
+        </div>
+        <div class="datos">
+            <p class="txtPresentacion">En el año 2009 me gradué de la facultad de Arquitectura en la Universidad Católica del Ecuador, llegué a Barcelona en el año 2016 para realizar el máster oficial en Intervención Sostenible en el medio construido en la Universidad Politécnica
+                de Cataluña y en el año 2017 comencé a estudiar un máster propio part-time en Gestión Ambiental de la facultad de psicología social de la Universidad de Barcelona.
                 <br><br>En el año 2020 tuve la oportunidad de entrar al mundo de la programación en la formación intensiva de 300h en desarrollo Front-end de Factoría F5 en Barcelona, dónde aprendí también Metodologías Ágiles como <em>Kanban</em> y <em>Scrum</em>.</p>
-            
-            </div>
-        </main>
 
-        <main class="firstPage" data-name="experiencia" style="display: none;">
-            <div class="presentacion" id="fifthTab">
-                <div class="tabUp">
-                    <h2 class="titleUp">Experiencia</h2>
-                </div>
-            </div>
-            
-            <div class="datosDiv">
-                <p class="txtExperiencia">Desde el 2007 al 2020 he realizado proyectos de arquitectura, de construcción y gestión catastral, pero dentro de esos años he realizado algunos trabajos respecto al desarrollo web.</p>
-                <div>
-                    <h6 class="subtitle">Enfiladissa Macramé (en curso)</h6>
-                    <p class="textDatos">Ene - Mar. 2021<br>e-Commerce responsive.</p>
-                </div>
-                <div>
-                    <h6 class="subtitle">Lego Arquitectura</h6>
-                    <p class="textDatos">Dic. 2020<br>Página web con Wordpress.</p>
-                </div>
-                <div>
-                    <h6 class="subtitle">Área Metropolitana de Barcelona</h6>
-                    <p class="textDatos">Abr. 2017 - Jul. 2020<br>Colaboración en el cierre del desarrollo conceptual del geoportal del departamento de infraestructuras.</p>
-                </div>
-                <div>
-                    <h6 class="subtitle">Novatam C.E.M.</h6>
-                    <p class="textDatos">Mar. 2015 - Sept. 2016<br>Desarrollo conceptual del Sistema Integral de Gestión Municipal “e-GAD” para los municipios del Ecuador, teniendo de base un sistema de información geográfica.</p>
-                </div>
-                <div>
-                    <h6 class="subtitle">Miski Chocolates</h6>
-                    <p class="textDatos">Feb. 2012<br>Página web con Joomla.</p>
-                </div>
-            </div>
-        </main>
+        </div>
+    </main>
 
-        <main class="firstPage" data-name="herramientas" style="display: none;">
-            <div class="presentacion" id="sixthTab">
-                <div class="tabUp">
-                    <h2 class="titleUp">Herramientas</h2>
-                </div>
-                <div class="datosDiv datosHerramientas"></div>
+    <main class="firstPage" data-name="experiencia" style="display: none;">
+        <div class="presentacion" id="fifthTab">
+            <div class="tabUp">
+                <h2 class="titleUp">Experiencia</h2>
             </div>
-        </main>
+        </div>
 
-        <main class="firstPage" data-name="idiomas" style="display: none;">
-            <div class="presentacion" id="seventhTab">
-                <div class="tabUp">
-                    <h2 class="titleUp">Idiomas</h2>
-                </div>
-                <div class="datosIdiomas"></div>
+        <div class="datosDiv">
+            <p class="txtExperiencia">Desde el 2007 al 2020 he realizado proyectos de arquitectura, de construcción y gestión catastral, pero dentro de esos años he realizado algunos trabajos respecto al desarrollo web.</p>
+            <div>
+                <h6 class="subtitle">Enfiladissa Macramé (en curso)</h6>
+                <p class="textDatos">Ene - Mar. 2021<br>e-Commerce responsive.</p>
             </div>
-        </main>
-        
+            <div>
+                <h6 class="subtitle">Lego Arquitectura</h6>
+                <p class="textDatos">Dic. 2020<br>Página web con Wordpress.</p>
+            </div>
+            <div>
+                <h6 class="subtitle">Área Metropolitana de Barcelona</h6>
+                <p class="textDatos">Abr. 2017 - Jul. 2020<br>Colaboración en el cierre del desarrollo conceptual del geoportal del departamento de infraestructuras.</p>
+            </div>
+            <div>
+                <h6 class="subtitle">Novatam C.E.M.</h6>
+                <p class="textDatos">Mar. 2015 - Sept. 2016<br>Desarrollo conceptual del Sistema Integral de Gestión Municipal “e-GAD” para los municipios del Ecuador, teniendo de base un sistema de información geográfica.</p>
+            </div>
+            <div>
+                <h6 class="subtitle">Miski Chocolates</h6>
+                <p class="textDatos">Feb. 2012<br>Página web con Joomla.</p>
+            </div>
+        </div>
+    </main>
 
-        <nav id="nav"></nav>
-        
-        <nav id="navMobil">
-            <button class="dropUpMenu"><img src="./img/menu.svg"></button>
-            <div class="tabMobil">
-                <button class="dropUp" onclick="dropUpP()">Presentación<p class="txtDropUp" id="dropP">Tengo un gran interés por el desarrollo tecnológico en general, me apasiona todas las ventajas que él puede ofrecer, como el acceso a la información y al conocimiento, la creatividad que puede surgir para generar soluciones efectivas y el aporte a la innovación para cualquier tipo de desarrollo.
+    <main class="firstPage" data-name="herramientas" style="display: none;">
+        <div class="presentacion" id="sixthTab">
+            <div class="tabUp">
+                <h2 class="titleUp">Herramientas</h2>
+            </div>
+            <div class="datosDiv datosHerramientas"></div>
+        </div>
+    </main>
+
+    <main class="firstPage" data-name="idiomas" style="display: none;">
+        <div class="presentacion" id="seventhTab">
+            <div class="tabUp">
+                <h2 class="titleUp">Idiomas</h2>
+            </div>
+            <div class="datosIdiomas"></div>
+        </div>
+    </main>
+
+
+    <nav id="nav"></nav>
+
+    <nav id="navMobil">
+        <button class="dropUpMenu"><img src="./img/menu.svg"></button>
+        <div class="tabMobil">
+            <button class="dropUp" onclick="dropUpP()">Presentación<p class="txtDropUp" id="dropP">Tengo un gran interés por el desarrollo tecnológico en general, me apasiona todas las ventajas que él puede ofrecer, como el acceso a la información y al conocimiento, la creatividad que puede surgir para generar soluciones efectivas y el aporte a la innovación para cualquier tipo de desarrollo.
                     <br><br>El desarrollo web cada día es más creativo y me parece interesante todos los beneficios que podemos aprovechar de él, además que aporta a la sostenibilidad que es otro tema que me apasiona.
                     <br><br>Siempre hay cosas que mejorar, eso promueve la imaginación y me mantiene motivada para seguir aprendiendo. Es un campo en el que se puede ir avanzando gracias a una red de profesionales inmersos en una comunidad cohesionada.</p></button>
-                <button class="dropUp" onclick="dropUpA()">Actitudes y Aptitudes<p class="txtDropUp" id="dropA">Para todos los aspectos en la vida, creo fervientemente, que la motivación y pasión son necesarios, son los motores de la creatividad. 
+            <button class="dropUp" onclick="dropUpA()">Actitudes y Aptitudes<p class="txtDropUp" id="dropA">Para todos los aspectos en la vida, creo fervientemente, que la motivación y pasión son necesarios, son los motores de la creatividad. 
                     <br><br>Soy una persona resiliente que se adapta sin mayor problema a los cambios que se me presenten, creo que la flexibilidad es importante, así como la escucha activa, estas habilidades me permiten trabajar en equipo siempre con respeto, honestidad y empatía. 
                     <br><br>Tengo capacidad analítica que me ha permitido tomar decisiones con seguridad y confianza para el beneficio del proyecto y de los colaboradores. Creo que la perseverancia y la iniciativa ayudan a los proyectos a realizarse de manera más fluida.</p></button>
-            </div>
-        </nav>
+        </div>
+    </nav>
 
-        <script src="nav.js"></script>
-        <script src="herramientas.js"></script>
-        <script src="idiomas.js"></script>
-        <script src="actitudesAptitudes.js"></script>
-        <script src="changePage.js"></script>
-        <script src="mobilPage.js"></script>
-        
-    
-    </body>
+    <script src="nav.js"></script>
+    <script src="herramientas.js"></script>
+    <script src="idiomas.js"></script>
+    <script src="actitudesAptitudes.js"></script>
+    <script src="changePage.js"></script>
+    <script src="mobilPage.js"></script>
+
+
+</body>
 
 </html>
