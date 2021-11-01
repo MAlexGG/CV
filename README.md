@@ -26,4 +26,4 @@ I made de UX/UI design in Figma both desktop and mobile. It's responsive.
 HTML5, CSS3, Javascript, Figma, Adobe Photoshop, Adobe Illustrator.
 
 ## Next Steps
-Information needs to be updated.
+Information needs to be updated and it's necessary to do the navbar on mobile with its pages.
